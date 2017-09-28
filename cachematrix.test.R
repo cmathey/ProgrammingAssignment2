@@ -1,0 +1,8 @@
+x = matrix(1:4, 2, 2)
+print("Standard solve")
+print(solve(x))
+cx = makeCacheMatrix(x)
+print("Cached solve #1")
+print(cacheSolve(cx))
+print("Cached solve #2")
+print(cacheSolve(cx))
